@@ -1,0 +1,20 @@
+{
+  "libs": [
+    "browser",
+    "jquery",
+    "underscore",
+    "ecma6",
+    "chai"
+  ],
+  "loadEagerly": [ "**/*.jsx", "**/*.js" ],
+  "dontLoad": [ ".meteor", "private", "node_modules", "tags" ],
+  "plugins": {
+    "meteor": {},
+    "node": {},
+    "node-extension": {},
+    "modules": {},
+    "webpack": {},
+    "es_modules": {},
+    "complete_strings": {}
+  }
+}
