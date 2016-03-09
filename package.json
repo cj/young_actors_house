@@ -2,11 +2,13 @@
   "name": "young_actors_house",
   "private": true,
   "version": "0.0.1",
-  "main": "app.js",
+  "main": "app/lib/app.jsx",
   "scripts": {
-    "start": "meteor --settings settings.development.json",
-    "test": "meteor test --driver-package practicalmeteor:mocha",
-    "deploy": ""
+    "start": "meteor run",
+    "test": "meteor test --driver-package practicalmeteor:mocha"
+  },
+  "engines": {
+    "npm": "2.14.12"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",

@@ -3,8 +3,9 @@
     "browser",
     "jquery",
     "underscore",
-    "ecma6",
-    "chai"
+    "chai",
+    "ecma5",
+    "ecma6"
   ],
   "loadEagerly": [ "**/*.jsx", "**/*.js" ],
   "dontLoad": [ ".meteor", "private", "node_modules", "tags" ],
